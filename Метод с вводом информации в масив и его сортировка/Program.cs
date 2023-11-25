@@ -4,11 +4,8 @@
 
 class Programm
 {
-    static void Main(string[] args)
-    {
-        GetArrayFromConsole();
-     
-    }
+    
+    
     static int[] GetArrayFromConsole()
     {
         var result = new int[5];
