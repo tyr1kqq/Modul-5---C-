@@ -63,7 +63,7 @@ class MainClass
         Console.WriteLine("Ваше имя - {0}",name);
         Console.WriteLine("Ваш возраст - {0}" , age);
 
-        ShowColor(name);
+       
 
 
         var favcolor = new string[3];
