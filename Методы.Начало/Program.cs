@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 
 class MainClass
@@ -45,7 +46,18 @@ class MainClass
         return color;
     }
 
-    
+
+    static void ShowColors(string username = "Igor" , params string[] favcolors)
+    {
+        Console.WriteLine("{0} Ваши любимые цвета:",username);
+        foreach (var color in favcolors)
+        {
+            Console.WriteLine(color);
+        }
+    }
+    // ShowColors(name, "red", "cyan");
+    // можно использовать делегалы 
+
 
     public static void Main(string[] args)
     {
@@ -73,17 +85,11 @@ class MainClass
                 favcolor[i] = ShowColor(name,age) ;
           
             }
-        
-          static Array ShowColors(string[] favcolors)
-         {
-            Console.WriteLine("Ваши любимые цвета:");
-            foreach (var color in favcolors)
-            {
-                Console.WriteLine(color);
-            }
-            return favcolors;
-         }
-        
+
+
+        ShowColors(name, favcolor);
+
+
 
     }
 
