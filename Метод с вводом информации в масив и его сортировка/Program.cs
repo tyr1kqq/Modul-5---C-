@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
 
 namespace test
 {
@@ -9,8 +9,9 @@ namespace test
 
             var array = GetArrayFromConsole(10);
             // num = 3 , это размерность массива
-          
-            ShowArray(array,true);
+
+           
+            ShowArray(SortArray,true);
             // Вызываем параметр true и выболняем блок if
             
 
@@ -38,7 +39,7 @@ namespace test
             var temp = array;
             if (IsSort)
             {
-                SortArray(array );
+                SortArray(array);
             }
             foreach (var item in temp)
             {
@@ -50,14 +51,13 @@ namespace test
                     
 
         }
-        static int[] SortArray(int[] array ,  out int[] sorteddesc ,out int[] sortedasc)
+        static int[] SortArray(int[] array  , out int[] sorteddesc ,out int[] sortedasc)
         {
             sorteddesc = SortArrayDesc(array);
             sortedasc = SortArrayAsc(array);
 
-            var suum = sorteddesc;
-            return suum;
-
+            var result = SortArrayDesc(sortedasc);
+            return result;
             
         }
 
