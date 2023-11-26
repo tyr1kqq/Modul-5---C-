@@ -1,39 +1,45 @@
-﻿using System;
- 
-
-
-class Programm
+﻿namespace test
 {
-    
-    
-    static int[] GetArrayFromConsole()
+    internal class Program
     {
-        var result = new int[5];
+        static void Main(string[] args)
+        {
 
-        for (int i = 0; i < result.Length; i++)
-        {
-            Console.WriteLine("Введите элемент массива номер {0}", i + 1);
-            result[i] = int.Parse(Console.ReadLine());
+            var metod = GetArrayFromConsole();
+            SortArray(metod);
+
+
         }
-        int  memory = 0;
-       for (int k = 0; k < result.Length;k++)
+        static int[] GetArrayFromConsole()
         {
-            for (int j = k+1; j < result.Length; j++)
+            var result = new int[5];
+
+            for (int i = 0; i < result.Length; i++)
             {
-                if (result[k] > result[j])
-                {
-                    memory = result[j];
-                    result[j] = result[k];
-                    result[k] = memory;
-                }
+                Console.Write("Enter element array {0}  ", i + 1);
+                result[i] = Convert.ToInt32(Console.ReadLine());
             }
-        }
 
-       foreach (int mass in result)
+            return result;
+        }
+        static int[] SortArray(int[] result)
         {
-            Console.Write(mass + " ");
+
+            int temp = 0;
+            for (int i = 0; i < result.Length; i++)
+                for (int j = i + 1; j < result.Length; j++)
+                    if (result[i] > result[j])
+                    {
+                        temp = result[i];
+                        result[i] = result[j];
+                        result[j] = temp;
+                    }
+            foreach (int ch in result)
+            {
+                Console.WriteLine(ch);
+            }
+            return result;
         }
 
-        return result;
     }
 }

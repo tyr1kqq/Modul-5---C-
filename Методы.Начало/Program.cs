@@ -41,7 +41,7 @@ class MainClass
         }
 
         
-        
+
         return color;
     }
 
@@ -72,16 +72,18 @@ class MainClass
             {
                 favcolor[i] = ShowColor(name,age) ;
           
-        }
+            }
         
-          static void ShowColors(string[] favcolors)
-        {
+          static Array ShowColors(string[] favcolors)
+         {
             Console.WriteLine("Ваши любимые цвета:");
             foreach (var color in favcolors)
             {
                 Console.WriteLine(color);
             }
-        }
+            return favcolors;
+         }
+        
 
     }
 
