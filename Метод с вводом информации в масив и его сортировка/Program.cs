@@ -5,14 +5,18 @@
         static void Main(string[] args)
         {
 
-            var metod = GetArrayFromConsole();
-            SortArray(metod);
+            var array = GetArrayFromConsole(3);
+            // num = 3 , это размерность массива
+           var sort = SortArray(array);
+            ShowArray(sort);
+            
 
 
         }
-        static int[] GetArrayFromConsole()
+        static int[] GetArrayFromConsole(int num = 5)
+        // указываем размерность массива через num = 
         {
-            var result = new int[5];
+            var result = new int[num];
 
             for (int i = 0; i < result.Length; i++)
             {
@@ -20,10 +24,31 @@
                 result[i] = Convert.ToInt32(Console.ReadLine());
             }
 
+
+
             return result;
+        }
+
+        static int[] ShowArray(int[]  array , bool IsSort = false)
+        {
+            var temp = array;
+            if (IsSort)
+            {
+                SortArray(array );
+            }
+            foreach (var item in temp)
+            {
+                Console.WriteLine();
+            }
+
+            return temp;
+            
+                    
+
         }
         static int[] SortArray(int[] result)
         {
+            
 
             int temp = 0;
             for (int i = 0; i < result.Length; i++)
