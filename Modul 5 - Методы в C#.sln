@@ -5,9 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul 5 - Методы в C#", "Modul 5 - Методы в C#\Modul 5 - Методы в C#.csproj", "{5E6AC891-6EAC-4FCF-A6DE-204DAB912E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Методы.Начало", "Методы.Начало\Методы.Начало.csproj", "{8F2A5A4D-46C9-454D-9453-A85707FA6C70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы.Начало", "Методы.Начало\Методы.Начало.csproj", "{8F2A5A4D-46C9-454D-9453-A85707FA6C70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Метод с вводом информации в масив и его сортировка", "Метод с вводом информации в масив и его сортировка\Метод с вводом информации в масив и его сортировка.csproj", "{3EE960B5-A0E8-4735-96B3-45D63766EBF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Метод с вводом информации в масив и его сортировка", "Метод с вводом информации в масив и его сортировка\Метод с вводом информации в масив и его сортировка.csproj", "{3EE960B5-A0E8-4735-96B3-45D63766EBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metod Next move", "Metod Next move\Metod Next move.csproj", "{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3EE960B5-A0E8-4735-96B3-45D63766EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE960B5-A0E8-4735-96B3-45D63766EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE960B5-A0E8-4735-96B3-45D63766EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
