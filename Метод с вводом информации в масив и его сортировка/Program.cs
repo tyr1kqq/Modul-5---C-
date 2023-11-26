@@ -5,15 +5,15 @@
         static void Main(string[] args)
         {
 
-            var array = GetArrayFromConsole(3);
+            var array = GetArrayFromConsole(10);
             // num = 3 , это размерность массива
-           var sort = SortArray(array);
-            ShowArray(sort);
+          
+            ShowArray(array,true);
             
 
 
         }
-        static int[] GetArrayFromConsole(int num = 5)
+        static int[] GetArrayFromConsole(int num = 10)
         // указываем размерность массива через num = 
         {
             var result = new int[num];
