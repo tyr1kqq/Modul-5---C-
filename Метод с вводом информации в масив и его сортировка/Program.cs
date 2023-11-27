@@ -10,8 +10,8 @@ namespace test
             var array = GetArrayFromConsole(10);
             // num = 3 , это размерность массива
 
-           
-            ShowArray(SortArray,true);
+            var temp1 = SortArrayAsc(array);
+            ShowArray(temp1 ,true);
             // Вызываем параметр true и выболняем блок if
             
 
@@ -51,15 +51,14 @@ namespace test
                     
 
         }
-        static int[] SortArray(int[] array  , out int[] sorteddesc ,out int[] sortedasc)
+        static int[] SortArray(int[] array)
         {
-            sorteddesc = SortArrayDesc(array);
-            sortedasc = SortArrayAsc(array);
+            var sorteddesc = SortArrayDesc(array);
+            var sortedasc = SortArrayAsc(sorteddesc);
 
-            var result = SortArrayDesc(sortedasc);
-            return result;
-            
+
         }
+           
 
         static int[] SortArrayDesc(int[] result)
         {
