@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Методы.Начало",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Метод с вводом информации в масив и его сортировка", "Метод с вводом информации в масив и его сортировка\Метод с вводом информации в масив и его сортировка.csproj", "{3EE960B5-A0E8-4735-96B3-45D63766EBF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metod Next move", "Metod Next move\Metod Next move.csproj", "{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metod Next move", "Metod Next move\Metod Next move.csproj", "{A9A40384-4B7D-42AA-90FA-F7F1B21832F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metod Next move number 2", "Metod Next move number 2\Metod Next move number 2.csproj", "{4D74188D-1B8C-489C-804D-A07BD4A17E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metod Next move number 2", "Metod Next move number 2\Metod Next move number 2.csproj", "{4D74188D-1B8C-489C-804D-A07BD4A17E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "area visibility", "area visibility\area visibility.csproj", "{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4D74188D-1B8C-489C-804D-A07BD4A17E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D74188D-1B8C-489C-804D-A07BD4A17E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D74188D-1B8C-489C-804D-A07BD4A17E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
