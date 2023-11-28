@@ -10,7 +10,7 @@ namespace test
             var array = GetArrayFromConsole(10);
             // num = 3 , это размерность массива
 
-            var temp = SortArray(array);
+            var temp = SortArray(array ,  SortArrayAsc,  SortArrayDesc);
 
             ShowArray(temp ,true);
             // Вызываем параметр true и выболняем блок if
@@ -37,10 +37,13 @@ namespace test
 
         static int[] ShowArray(int[]  array , bool IsSort = false )
         {
+            int[] sortedDesc = SortArrayDesc(array);
+            int[] soetedDasc = SortArrayAsc(array);
             var temp = array;
+            
             if (IsSort)
             {
-                SortArray(array);
+                SortArray(array, out  sortedDesc, out soetedDasc);
             }
             foreach (var item in temp)
             {
@@ -52,13 +55,10 @@ namespace test
                     
 
         }
-        static int[] SortArray(int[] array  )
+        static int[] SortArray(int[] array , out int[] sortArrayDesc , out int[] sortArrayDasc   )
         {
             var sorteddesc = SortArrayDesc(array);
-            var sortedasc = SortArrayAsc(sorteddesc);
-
-            var result = SortArrayDesc(sortedasc);
-            return null;
+            var sorteddasc = SortArrayAsc(array);
             
         }
 

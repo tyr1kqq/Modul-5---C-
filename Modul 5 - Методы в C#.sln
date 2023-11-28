@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metod Next move", "Metod Ne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metod Next move number 2", "Metod Next move number 2\Metod Next move number 2.csproj", "{4D74188D-1B8C-489C-804D-A07BD4A17E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "area visibility", "area visibility\area visibility.csproj", "{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "area visibility", "area visibility\area visibility.csproj", "{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursies)", "Rekursies)\Rekursies).csproj", "{690E9B0B-C3C5-4E53-BB00-3E92EB718D0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BE48AD-2EBB-410B-9EEB-5DC3F2BC5C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690E9B0B-C3C5-4E53-BB00-3E92EB718D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690E9B0B-C3C5-4E53-BB00-3E92EB718D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690E9B0B-C3C5-4E53-BB00-3E92EB718D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690E9B0B-C3C5-4E53-BB00-3E92EB718D0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
